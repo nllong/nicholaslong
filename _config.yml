@@ -4,10 +4,10 @@
 
 url: http://nicholaslong.org
 title: Nicholas Long
-email: your-email@domain.com
+email: info@inbelievable.com
 author: Nicholas Long
 description: > # ""
-copyright: 'Copyright &copy; 2016 Nicholas Long. All Rights Reserved.'
+copyright: 'Copyright &copy; 2020 Nicholas Long. All Rights Reserved.'
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -28,3 +28,5 @@ social:
     url: https://github.com/nllong
   - title: linkedin
     url: https://www.linkedin.com/in/nllong
+  - title: facebook
+    url: http://facebook.com/nllong
