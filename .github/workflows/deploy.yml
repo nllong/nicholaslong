@@ -8,6 +8,7 @@ on:
   push:
     branches:
       - main
+      - deploy-test
 
 jobs:
   deploy:
@@ -21,17 +22,13 @@ jobs:
         with:
           ruby-version: "3.2"
 
-      - name: Install Jekyll and Bundler
+      - name: Install Jekyll
         run: |
-          gem install bundler jekyll
-
-      - name: Install dependencies
-        run: |
-          bundle install || true
+          gem install jekyll
 
       - name: Build Jekyll site
         run: |
-          bundle exec jekyll build
+          jekyll build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
