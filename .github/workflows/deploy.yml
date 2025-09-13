@@ -1,8 +1,8 @@
-name: Deploy to GitHub Pages
-
 permissions:
   id-token: write
   contents: read
+  pages: write
+name: Deploy to GitHub Pages
 
 on:
   push:
