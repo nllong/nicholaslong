@@ -19,9 +19,13 @@ jobs:
       # run pre-commit autoupdate and if it fails,
       # then the job will fail and the user will need
       # to manually run and commit the changes
-      - name: Run pre-commit autoupdate
+      - name: Run pre-commit autoupdate and fail if updates
         run: |
           pre-commit autoupdate
+          if ! git diff --exit-code .pre-commit-config.yaml; then
+            echo "pre-commit autoupdate made changes. Please run 'pre-commit autoupdate' locally and commit the result." >&2
+            exit 1
+          fi
       - name: Run pre-commit
         run: |
           pre-commit run --all-files
