@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://nicholaslong.org
+url: https://nicholaslong.org
 title: Nicholas Long
 email: info@inbelievable.com
 author: Nicholas Long
 description: > # ""
-copyright: 'Copyright &copy; 2020 Nicholas Long. All Rights Reserved.'
+copyright: 'Copyright &copy; 2025 Nicholas Long. All Rights Reserved.'
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -22,8 +22,6 @@ permalink: pretty
 # ----------------------- #
 
 social:
-  - title: twitter
-    url: https://twitter.com/nllong
   - title: github
     url: https://github.com/nllong
   - title: linkedin
