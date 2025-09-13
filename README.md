@@ -2,11 +2,23 @@
 
 Jekyll theme based on [landing-page bootstrap theme ](http://startbootstrap.com/templates/landing-page/)
 
-## How to use
- - Place a image in `/img/services/`
- - Create posts to display your services. Use the follow as an example:
 
-```txt
+## How to update posts and content
+
+1. Make your changes (such as adding or editing posts in `_posts/` or images in `img/`) on the `main` branch.
+2. Commit and push your changes to GitHub:
+	```sh
+	git add .
+	git commit -m "Update posts or content"
+	git push origin main
+	```
+3. GitHub Actions will automatically build and deploy your site to the `gh-pages` branch. No manual deployment is needed.
+
+### Creating a new post
+
+Create a new file in the `_posts/` directory. Use the following as an example:
+
+```markdown
 ---
 layout: default
 img: ipad.png
