@@ -2,6 +2,25 @@
 
 Jekyll theme based on [landing-page bootstrap theme ](http://startbootstrap.com/templates/landing-page/)
 
+## How to serve locally with Ruby 3.2.2 and rbenv
+
+To preview your site locally, use rbenv to set the Ruby version and Jekyll to serve the site. You do not need a Gemfile for basic usage.
+
+1. Set the local Ruby version for this project:
+   ```sh
+   rbenv local 3.2.2
+   ```
+   This will create a `.ruby-version` file in your project directory.
+2. Install Jekyll (if not already installed):
+   ```sh
+   gem install jekyll
+   ```
+3. Serve the site locally:
+   ```sh
+   jekyll serve
+   ```
+4. Open [http://localhost:4000](http://localhost:4000) in your browser to view the site.
+
 ## How to update posts and content
 
 1. Make your changes (such as adding or editing posts in `_posts/` or images in `img/`) on the `main` branch.

@@ -23,6 +23,7 @@ pip-delete-this-directory.txt
 # VS Code
 .vscode/
 .python-version
+.ruby-version
 
 # JetBrains IDEs
 .idea/
