@@ -5,8 +5,8 @@ category: Services
 title: About Me
 description: Who is Nicholas Long
 ---
-  
-I have always enjoyed learning. I went to school for Electrical Engineering and Architectural Engineering. I have a PhD and Masters from the University of Colorado Boulder in the Architectural Engineering (building sciences). I also work at a National Lab developing software solutions for saving energy in commercial buildings. 
+
+I have always enjoyed learning. I went to school for Electrical Engineering and Architectural Engineering. I have a PhD and Masters from the University of Colorado Boulder in the Architectural Engineering (building sciences). I also work at a National Lab developing software solutions for saving energy in commercial buildings.
 
 Check out my LinkedIn page to see more about my vocation.
 
