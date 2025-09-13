@@ -15,6 +15,13 @@ jobs:
       - name: Install pre-commit
         run: |
           pip install pre-commit
+
+      # run pre-commit autoupdate and if it fails,
+      # then the job will fail and the user will need
+      # to manually run and commit the changes
+      - name: Run pre-commit autoupdate
+        run: |
+          pre-commit autoupdate
       - name: Run pre-commit
         run: |
           pre-commit run --all-files
