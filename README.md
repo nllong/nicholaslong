@@ -2,16 +2,15 @@
 
 Jekyll theme based on [landing-page bootstrap theme ](http://startbootstrap.com/templates/landing-page/)
 
-
 ## How to update posts and content
 
 1. Make your changes (such as adding or editing posts in `_posts/` or images in `img/`) on the `main` branch.
 2. Commit and push your changes to GitHub:
-	```sh
-	git add .
-	git commit -m "Update posts or content"
-	git push origin main
-	```
+   ```sh
+   git add .
+   git commit -m "Update posts or content"
+   git push origin main
+   ```
 3. GitHub Actions will automatically build and deploy your site to the `gh-pages` branch. No manual deployment is needed.
 
 ### Creating a new post
@@ -25,13 +24,16 @@ img: ipad.png
 category: Services
 title: The service title
 ---
+
 The description of this service
 ```
 
 ## Demo
+
 View this jekyll theme in action [here](https://swcool.github.io/landing-page-theme)
 
 ## Screenshot
+
 ![screenshot](https://raw.githubusercontent.com/swcool/landing-page-theme/master/img/screenshot.png)
 
 ===
@@ -40,8 +42,10 @@ For more Jekyll details, read [documentation](http://jekyllrb.com/).
 This Jekyll theme used [Freelancer Jekyll theme](https://github.com/jeromelachaud/freelancer-theme/) as reference.
 
 ## License
+
 The contents of this repository are licensed under the [Apache
 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
 
 ## Version
+
 1.0.1
