@@ -27,3 +27,7 @@ social:
     url: https://www.linkedin.com/in/nllong
   - title: facebook
     url: http://facebook.com/nllong
+
+# Publish the Tesla Fleet public key at its required discovery path.
+include:
+  - .well-known
