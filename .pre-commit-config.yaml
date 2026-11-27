@@ -2,7 +2,8 @@ exclude: |
   (?x)(
     ^css/|
     ^fonts/|
-    ^font-awesome-4.1.0/
+    ^font-awesome-4.1.0/|
+    ^sitemap\.xml$
   )
 
 repos:
